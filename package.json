@@ -1,0 +1,14 @@
+{
+  "name": "wa-facturacion",
+  "version": "1.0.0",
+  "description": "Bot de facturación CFDI 4.0 con WhatsApp y Facturapi",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
