@@ -16,6 +16,10 @@ const {
 
 // Sesiones en memoria (para demo)
 const sessions = new Map();
+// Ruta de prueba para Render (healthcheck)
+app.get("/", (req, res) => {
+  res.send("OK");
+});
 
 // 1) Verificación del webhook de Meta
 app.get("/webhook", (req, res) => {
